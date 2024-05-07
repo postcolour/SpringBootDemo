@@ -17,6 +17,9 @@ public class OrganizationDto {
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private List<FilialDto> filials;
 
+    public OrganizationDto() {
+
+    }
     public OrganizationDto(Integer id,
                            String fullName,
                            String name,
